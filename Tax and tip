@@ -1,9 +1,8 @@
-# The program that you create for this exercise will begin by reading the cost of a meal
-# ordered at a restaurant from the user. Then your program will compute the tax and
-# tip for the meal. Use your local tax rate when computing the amount of tax owing.
-# Compute the tip as 10 percent of the meal amount (without the tax). The output from
-# your program should include the tax amount, the tip amount, and the grand total for
-# the meal including both the tax and the tip. Format the output so that all of the values
+# The program should begin by reading user input on the meal cost. Then the program calculates VAT and
+# tip for the meal. Tax rate should be taken as 16% of meal cost.
+# The tip is 10% of the meal cost (without the tax). The output should show
+#  the tax amount, the tip amount, and total cost in separate lines.
+# Format the output so that all of the values
 # are displayed using two decimal places.
 
 
