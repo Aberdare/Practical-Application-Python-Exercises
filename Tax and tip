@@ -1,0 +1,16 @@
+# Program to calculate and print VAT, tip, and total_cost at a restaurant.
+# Read the cost of the meal from the user
+cost = float(input("Enter the cost of the meal: "))
+
+# Compute the VAT
+VAT = 0.16 * cost
+# Compute the tip
+tip = 0.10 * cost
+
+total_cost = cost + VAT + tip
+
+# Display the VAT, tip, and total cost.
+# The %.2f format specifier indicates that value should have 2 digits to the right of the decimal point.
+print("The VAT is Kes%.2f" % VAT)
+print("The tip is Kes%.2f" % tip)
+print("The total cost is Kes%.2f" % total_cost)
